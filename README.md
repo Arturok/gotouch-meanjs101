@@ -17,11 +17,6 @@ NPM viene adherido a la instalación de Node y podemos verificarlo con el comand
 npm -v
 ```
 
-### Instalar MongoDB 
-
-De igual manera varía según la distribución de Linux, por lo cual se recomienda seguir los pasos
-de la [Página Oficial](https://docs.mongodb.com/manual/administration/install-on-linux/).
-
 ### Arreglar los permisos de NPM 
 
 Existen 3 opciones para solucionar el conflicto de permisos de NPM con la distribución. Se puede conocer más en la [Página Oficial](https://docs.npmjs.com/getting-started/fixing-npm-permissions), sin embargo, la mejor opción se detalla a continuación.
@@ -47,8 +42,13 @@ nano ~/.profile
 
 5. De vuelta a la terminal, actualizar las variables del sistema.
 ``` bash
- source ~/.profile
+source ~/.profile
 ```
+
+### Instalar MongoDB 
+
+De igual manera varía según la distribución de Linux, por lo cual se recomienda seguir los pasos
+de la [Página Oficial](https://docs.mongodb.com/manual/administration/install-on-linux/).
 
 ## Requisitos
 
