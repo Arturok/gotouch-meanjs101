@@ -4,51 +4,42 @@
 ### Impartido por Luis Arturo Mora Granados
 
 ## Pre-Requisitos
-### Instalar Node.JS
+### Instalar Node Version Manager (NVM)
+NVM permite instalar diferentes versiones de Node, además la manera en que guarda las versiones de Node soluciona los problemas de permisos que el usuario se puede enfrentar al instalarlo a través de su manejador de paquetes. Solo es necesario descargar y ejecutar el script, con la línea.
 
-Según la distribución de Linux que se posea la instalación varía, por lo que se debe seguir los pasos de la [Página Oficial](https://nodejs.org/en/download/package-manager/).
-Para verificar que Node este instalado se debe ejecutar el comando:
 ``` bash
-node -v
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
 ```
 
-NPM viene adherido a la instalación de Node y podemos verificarlo con el comando:
+Luego de su instalación, el proceso más sencillo es cerrar la terminal y volverla a abrir.
+Para verificar necesitamos una línea de código.
 ``` bash
-npm -v
+command -v nvm
 ```
 
-### Arreglar los permisos de NPM 
-
-Existen 3 opciones para solucionar el conflicto de permisos de NPM con la distribución. Se puede conocer más en la [Página Oficial](https://docs.npmjs.com/getting-started/fixing-npm-permissions), sin embargo, la mejor opción se detalla a continuación.
-
-1. Crear un directorio en home.
+Se instala la versión más reciente de node.
 ``` bash
-mkdir ~/.npm-global
-```
-2. Configurar que npm use el directorio creado.
-``` bash
- npm config set prefix '~/.npm-global'
+nvm install node
 ```
 
-3. Abrir y crear un archivo de perfil.
+Y se instala la versión recomendada para Mean 0.4.2.
 ``` bash
-nano ~/.profile
+nvm install 4
 ```
 
-4. Escribir la siguiente línea en el archivo.
-```
- export PATH=~/.npm-global/bin:$PATH
+Luego de indica que versión utilizar.
+``` bash
+nvm use 4
 ```
 
-5. De vuelta a la terminal, actualizar las variables del sistema.
+El último paso es actualizar el Node Package Manager(NPM).
 ``` bash
-source ~/.profile
+npm install -g npm
 ```
 
 ### Instalar MongoDB 
 
-De igual manera varía según la distribución de Linux, por lo cual se recomienda seguir los pasos
-de la [Página Oficial](https://docs.mongodb.com/manual/administration/install-on-linux/).
+La instlación de MongoDB varía según la distribución de Linux, por lo cual se recomienda seguir los pasos de la [Página Oficial](https://docs.mongodb.com/manual/administration/install-on-linux/).
 
 ## Requisitos
 
