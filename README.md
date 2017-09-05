@@ -3,7 +3,6 @@
 ### Patrocinado por GoTouch
 ### Impartido por Luis Arturo Mora Granados
 
-{empty}+
 ## Pre-Requisitos
 ### Instalar Node.JS
 
@@ -38,7 +37,7 @@ mkdir ~/.npm-global
 
 3. Abrir y crear un archivo de perfil.
 ``` bash
-sudo nano ~/.profile
+nano ~/.profile
 ```
 
 4. Escribir la siguiente línea en el archivo.
@@ -51,7 +50,6 @@ sudo nano ~/.profile
  source ~/.profile
 ```
 
-<br>
 ## Requisitos
 
 - Instalar Bower
