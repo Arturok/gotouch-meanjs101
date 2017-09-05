@@ -43,3 +43,13 @@ npm install -g grunt-cli
 ``` bash
 npm install -g gulp
 ```
+
+- Instalar Yeoman
+``` bash
+npm install -g yo
+```
+
+- Instalar el generador de meanjs de Yeoman
+``` bash
+npm install -g generator-meanjs
+```
