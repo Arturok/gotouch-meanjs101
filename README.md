@@ -36,7 +36,22 @@ mkdir ~/.npm-global
  npm config set prefix '~/.npm-global'
 ```
 
-{empty}+
+3. Abrir y crear un archivo de perfil.
+``` bash
+sudo nano ~/.profile
+```
+
+4. Escribir la siguiente línea en el archivo.
+```
+ export PATH=~/.npm-global/bin:$PATH
+```
+
+5. De vuelta a la terminal, actualizar las variables del sistema.
+``` bash
+ source ~/.profile
+```
+
+<br>
 ## Requisitos
 
 - Instalar Bower
