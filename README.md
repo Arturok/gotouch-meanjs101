@@ -3,12 +3,11 @@
 ### Patrocinado por GoTouch
 ### Impartido por Luis Arturo Mora Granados
 
-+
-+
+__
 ## Pre-Requisitos
 ### Instalar Node.JS
 
-Según la distribución de Linux que se posea la instalación varía, por lo que se debe seguir los pasos de la [Página Oficial].(https://nodejs.org/en/download/package-manager/)
+Según la distribución de Linux que se posea la instalación varía, por lo que se debe seguir los pasos de la [Página Oficial](https://nodejs.org/en/download/package-manager/).
 +
 Para verificar que Node este instalado se debe ejecutar el comando:
 ``` bash
@@ -23,7 +22,7 @@ npm -v
 ### Instalar MongoDB 
 
 De igual manera varía según la distribución de Linux, por lo cual se recomienda seguir los pasos
-de la [Página Oficial].(https://docs.mongodb.com/manual/administration/install-on-linux/)
+de la [Página Oficial](https://docs.mongodb.com/manual/administration/install-on-linux/).
 
 ### Arreglar los permisos de NPM 
 
@@ -37,7 +36,7 @@ mkdir ~/.npm-global
 ``` bash
  npm config set prefix '~/.npm-global'
 ```
-+
+__
 ## Requisitos
 
 - Instalar Bower
