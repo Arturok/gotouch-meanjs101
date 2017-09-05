@@ -3,16 +3,27 @@
 ### Patrocinado por GoTouch
 ### Impartido por Luis Arturo Mora Granados
 
++
++
 ## Pre-Requisitos
-
 ### Instalar Node.JS
 
-Según la distribución de Linux que se posea la instalación varía, por lo que se debe seguir los pasos de la [Página Oficial](https://nodejs.org/en/download/package-manager/)
+Según la distribución de Linux que se posea la instalación varía, por lo que se debe seguir los pasos de la [Página Oficial].(https://nodejs.org/en/download/package-manager/)
++
+Para verificar que Node este instalado se debe ejecutar el comando:
+``` bash
+node -v
+```
+
+NPM viene adherido a la instalación de Node y podemos verificarlo con el comando:
+``` bash
+npm -v
+```
 
 ### Instalar MongoDB 
 
 De igual manera varía según la distribución de Linux, por lo cual se recomienda seguir los pasos
-de la [Página Oficial](https://docs.mongodb.com/manual/administration/install-on-linux/)
+de la [Página Oficial].(https://docs.mongodb.com/manual/administration/install-on-linux/)
 
 ### Arreglar los permisos de NPM 
 
@@ -26,7 +37,7 @@ mkdir ~/.npm-global
 ``` bash
  npm config set prefix '~/.npm-global'
 ```
-
++
 ## Requisitos
 
 - Instalar Bower
@@ -49,7 +60,7 @@ npm install -g gulp
 npm install -g yo
 ```
 
-- Instalar el generador de meanjs de Yeoman
+- Instalar el generador meanjs de Yeoman
 ``` bash
 npm install -g generator-meanjs
 ```
