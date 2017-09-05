@@ -3,12 +3,11 @@
 ### Patrocinado por GoTouch
 ### Impartido por Luis Arturo Mora Granados
 
-__
+{empty}+
 ## Pre-Requisitos
 ### Instalar Node.JS
 
 Según la distribución de Linux que se posea la instalación varía, por lo que se debe seguir los pasos de la [Página Oficial](https://nodejs.org/en/download/package-manager/).
-+
 Para verificar que Node este instalado se debe ejecutar el comando:
 ``` bash
 node -v
@@ -36,7 +35,8 @@ mkdir ~/.npm-global
 ``` bash
  npm config set prefix '~/.npm-global'
 ```
-__
+
+{empty}+
 ## Requisitos
 
 - Instalar Bower
