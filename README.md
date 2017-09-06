@@ -69,7 +69,7 @@ npm install -g generator-meanjs
 ```
 
 ## Instalación
-Se debe clonar el [repositorio Github de MEAN.JS]. (https://github.com/meanjs/mean)
+Se debe clonar el [repositorio Github de MEAN.JS](https://github.com/meanjs/mean)
 ``` bash
 git clone https://github.com/meanjs/mean.git taller-mean
 ```
