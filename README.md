@@ -20,7 +20,7 @@ command -v nvm
 
 Se instala la versión más reciente de node.
 ``` bash
-nvm install lts
+nvm install 6.11
 ```
 
 Es posible observar la versión de Node instalada con el siguiente comando.
