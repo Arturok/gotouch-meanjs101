@@ -5,7 +5,7 @@
 
 ## Pre-Requisitos
 
-### Instalar Node Version Manager (NVM)
+### Instalación Node Version Manager (NVM)
 NVM permite instalar diferentes versiones de Node, además la manera en que guarda las versiones de Node soluciona los problemas de permisos que el usuario se puede enfrentar al instalarlo a través de su manejador de paquetes. Solo es necesario descargar y ejecutar el script, con la línea.
 
 ``` bash
@@ -18,17 +18,17 @@ Para verificar necesitamos una línea de código.
 command -v nvm
 ```
 
-Se instala la versión más reciente de node.
+Se instala la versión más reciente de Node LTS (Long Term Support).
 ``` bash
 nvm install 6.11
 ```
 
-Es posible observar la versión de Node instalada con el siguiente comando.
+Es posible observar la versión específica de Node instalada con el siguiente comando.
 ``` bash
 node -v
 ```
 
-El último paso es actualizar el Node Package Manager(NPM).
+El último paso es actualizar el Node Package Manager (NPM).
 ``` bash
 npm install -g npm
 ```
@@ -65,18 +65,8 @@ npm install -g generator-meanjs
 ```
 
 ## Instalación
-Se debe clonar el [repositorio Github de MEAN.JS](https://github.com/meanjs/mean)
+Basta con ejecutar el generador de MEAN.JS de Yeoman.
 ``` bash
 yo meanjs
 ```
-
-El generador de Yeoman se encargara de solicitar la información básica para la aplicación,
-y con esta generara el armazón de MEAN.JS. Luego se debe abrir el directorio creado.
-``` bash
-cd <nombre-de-la-aplicación>
-```
-
-Y para instalar todas las dependencias, se debe ejecutar la siguiente línea.
-``` bash
-npm install
-```
+Se debe seleccionar la opción de master y completar la información requerida.
