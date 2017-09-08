@@ -1,7 +1,7 @@
 # Taller MEAN.JS 101
 
 ### Patrocinado por GoTouch
-![GoTouch Logo](https://github.com/luartmg/gotouch-meanjs101/images/go.png)
+![Image of GoTouch](https://github.com/luartmg/gotouch-meanjs101/images/go.png)
 
 ### Impartido por Luis Arturo Mora Granados
 
