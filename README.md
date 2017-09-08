@@ -1,6 +1,8 @@
 # Taller MEAN.JS 101
 
 ### Patrocinado por GoTouch
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 ### Impartido por Luis Arturo Mora Granados
 
 ## Pre-Requisitos
